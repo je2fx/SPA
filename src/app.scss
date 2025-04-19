@@ -1,0 +1,211 @@
+@use '../sass/abstracts/variables' as *;
+@use '../sass/abstracts/mixins' as *;
+@use '../sass/abstracts/container' as *;
+@use '../sass/abstracts/header' as *;
+@use '../sass/abstracts/cards' as *;
+@use '../sass/abstracts/woman' as *;
+@use '../sass/abstracts/treatment' as *;
+@use '../sass/abstracts/hero&content' as *;
+@use '../sass/abstracts/style-html' as *;
+
+
+
+// // Defaults styles
+// html{
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     max-width: 1440px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     background-image: linear-gradient(to right,
+//     $pastel-color 68%,
+//     $secondary-color 57% 100%,);   
+// }
+
+
+
+// // // Hero  Hero-content
+// // .hero{
+// //     padding-top: 2%;
+// //     padding-left: 5%;
+
+// //     .hero-content{
+     
+// //         margin-top: 5%;
+// //         width: 38%;
+// //         color: #2c3f62;
+// //         font-size: 20px;
+// //         font-family: $poppins;
+// //     }
+// //     p{
+// //         font-family: $poppins;
+// //         margin-top: 4%;
+// //         color: grey;
+// //         width: 50%;
+// //         line-height: 115%;
+// //     }
+// //     .bottoms{
+// //         display: flex;
+// //         gap: 5%;
+// //         margin-top: 5%;
+// //         align-items: center;
+// //         position: relative;
+        
+// //         .book{
+// //             display:inline-block;
+// //             margin-right: 1%;
+// //             padding:12px 30px;
+// //             color: white;
+// //             font-size: 15px;
+// //             font-weight: 400;
+// //             font-family: $poppins;
+// //             text-decoration: none;
+// //             border-radius: 25px;
+// //             background-color: $primary-color;
+// //             &:hover{
+// //                 background-color:$secondary-color;
+// //                 color: black;
+// //             }
+// //         }
+// //         .video{
+// //             font-size: 15px;
+// //             text-decoration: none;
+// //             font-family: $poppins;
+// //             &:visited{
+// //                 color: $primary-color;
+// //             }
+            
+// //             img{
+// //                 width: 90px;
+// //                 position: absolute;
+// //                 left: 145px;
+// //                 top: -10px;    
+// //             }
+// //         }
+// //     }
+// // }
+
+// // // Cards Sophie & Jules
+// // .cards{
+// //     position: relative;
+// //     font-family: $poppins;
+// //     .comillas{
+// //         width: 7%;
+// //     }
+// //     .text-cards{
+// //         p{
+// //             margin-top: 7px;
+// //         }
+// //     }
+
+// //     .sophie{
+// //         -webkit-box-shadow: inset 16px 0px 104px 22px rgba(255,255,255,1);
+// //         -moz-box-shadow: inset 16px 0px 104px 22px rgba(255,255,255,1);
+// //         box-shadow: inset 16px 0px 104px 22px rgba(255,255,255,1);
+// //         border-radius: 12px;
+// //         font-size: 13px;
+// //         background-color: rgba(255, 255, 255, 0.4);
+// //         backdrop-filter: blur(16px);
+// //         padding: 14px;
+// //         width: 261px;
+// //         height: 140px;
+// //         position: absolute;
+// //         right: 6.1%;
+// //         transform: translateY(-337px);
+// //     }
+// //     .jules{
+// //         border-radius: 12px;
+// //         background-color: rgba(255, 255, 255, 0.4);
+// //         backdrop-filter: blur(16px);
+// //         font-size: 13px;
+// //         padding: 14px;
+// //         width: 261px;
+// //         height: 140px;
+// //         position: absolute;
+// //         right: 12%;
+// //         transform: translateY(-130px);
+// //     }
+   
+// //     .name{
+// //         margin-top: -10px;
+// //         color: $primary-color;
+// //     }
+    
+   
+// //     .cards-content{
+// //         border-radius: 12px;
+// //         background-color: rgba(255, 255, 255, 0.4);
+// //         backdrop-filter: blur(1px);
+// //         padding: 12px;
+// //         width: 26%;
+// //         .text-cards{
+// //             display: block;
+// //         }
+// //     }
+// // }
+
+
+// // // Section  Treatment
+// // .treatment{
+// //     font-size: 13px;
+// //     margin-top: 8%;
+// //     width: 552px;
+// //     display: flex;
+// //     justify-content: center;
+// //     background-color: white;
+// //     border-radius: 20px;
+// //     .treatment-content{
+// //         width: 100%;
+// //         height: fit-content;
+// //         display: flex;
+// //         flex-direction: column;
+// //         justify-content: center;
+// //         align-items: center;
+// //         padding-right: 5%;
+// //         padding-left: 5%;
+// //         padding-top: 5%;
+        
+        
+        
+// //         .punctuation{
+// //             font-family: $poppins;
+// //             font-weight: 400;
+// //             color: $primary-color;
+// //             margin-top: 15.5%;
+// //             margin-bottom:5% ;
+// //             display: block;
+// //             text-align: center;
+// //         }
+// //         p{
+// //             font-size: 15px;
+// //             width: 110px;
+// //             display: inline-block;
+// //             text-align:center;
+// //         }
+// //         .cream{
+// //             margin-top: -15px;
+// //             width: 118px;
+// //         }
+        
+
+      
+   
+// //     }
+  
+// // }
+
+// // The woman photo
+// .woman{
+  
+//     width: 24%;
+//     height: 53%;
+//     display: inline-block;
+//     position: absolute;
+//     right: 33.1%;
+//     top: 9%;
+// }
+        
+
+        
+       
+

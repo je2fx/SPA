@@ -1,0 +1,271 @@
+.container {
+  max-width: 1440px;
+  height: 705px;
+  padding-left: 3%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container .rose {
+  width: 34%;
+  height: 41%;
+  position: absolute;
+  right: 5%;
+  top: 15%;
+  opacity: 0.1;
+}
+
+.header {
+  max-width: 100%;
+  font-family: "Poppins", serif;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+.header .logo {
+  position: relative;
+  right: 41px;
+}
+.header .nav #more {
+  font-family: "Nunito Sans", sans-serif;
+}
+.header .nav .arrow {
+  position: relative;
+  top: -11%;
+  right: 13%;
+}
+.header .nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 7%;
+}
+.header .nav ul a {
+  font-family: "Poppins", serif;
+  font-size: 15px;
+  padding: 4px 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #264065;
+  cursor: pointer;
+}
+.header .nav ul a:hover {
+  border-radius: 29px;
+  background-color: #264065;
+  color: white;
+  transition: all 0.5 ease;
+}
+.header .sign {
+  display: flex;
+  justify-content: center;
+  margin-left: 16%;
+}
+.header .sign .sig-list {
+  gap: 2%;
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+.header .sign .sig-list .chart {
+  padding-top: 25%;
+  margin-left: -1%;
+  width: 80px;
+}
+.header .sign .sig-list .in {
+  font-size: 15px;
+  font-family: "Nunito Sans", sans-serif;
+  width: 122%;
+  margin-left: 8%;
+  color: #264065;
+  display: inline-block;
+  padding: 20px 29px;
+  border-radius: 29px;
+}
+.header .sign .sig-list .in:hover {
+  border-radius: 29px;
+  background-color: #b2d4cb;
+  color: white;
+  transition: all 0.5 ease;
+}
+.header .sign .sig-list .up {
+  font-size: 15px;
+  width: 54%;
+  margin-left: 10%;
+  color: white;
+  display: inline-block;
+  padding: 17px 30px;
+  text-decoration: none;
+  border-radius: 29px;
+  background-color: #264065;
+  transition: width 1.1 ease;
+}
+.header .sign .sig-list .up:hover {
+  transform: scale(1.3);
+}
+
+.cards {
+  position: relative;
+  font-family: "Poppins", serif;
+}
+.cards .comillas {
+  width: 7%;
+}
+.cards .text-cards p {
+  margin-top: 7px;
+}
+.cards .sophie {
+  -webkit-box-shadow: inset 16px 0px 104px 22px rgb(255, 255, 255);
+  -moz-box-shadow: inset 16px 0px 104px 22px rgb(255, 255, 255);
+  box-shadow: inset 16px 0px 104px 22px rgb(255, 255, 255);
+  border-radius: 12px;
+  font-size: 13px;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(16px);
+  padding: 14px;
+  width: 261px;
+  height: 140px;
+  position: absolute;
+  right: 3.1%;
+  transform: translateY(-274px);
+}
+.cards .jules {
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(16px);
+  font-size: 13px;
+  padding: 14px;
+  width: 261px;
+  height: 140px;
+  position: absolute;
+  right: 10%;
+  transform: translateY(-60px);
+}
+.cards .name {
+  margin-top: -10px;
+  color: #264065;
+}
+.cards .cards-content {
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(1px);
+  padding: 12px;
+  width: 26%;
+}
+.cards .cards-content .text-cards {
+  display: block;
+}
+
+.woman {
+  width: 70%;
+  height: 86%;
+  display: inline-block;
+  position: absolute;
+  right: 2.1%;
+  top: 14%;
+}
+
+.treatment {
+  font-size: 13px;
+  margin-top: 8%;
+  width: 552px;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  border-radius: 20px;
+}
+.treatment .treatment-content {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+.treatment .treatment-content .punctuation {
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  color: #264065;
+  margin-top: 15.5%;
+  margin-bottom: 5%;
+  display: block;
+  text-align: center;
+}
+.treatment .treatment-content p {
+  color: #909090;
+  font-size: 15px;
+  width: 110px;
+  display: inline-block;
+  text-align: center;
+}
+.treatment .treatment-content .cream {
+  color: #909090;
+  margin-top: -15px;
+  width: 118px;
+}
+
+.hero {
+  padding-top: 2%;
+  padding-left: 5%;
+}
+.hero .hero-content {
+  margin-top: 5%;
+  width: 38%;
+  color: #264065;
+  font-size: 20px;
+  font-family: "Poppins", serif;
+}
+.hero p {
+  font-family: "Poppins", serif;
+  margin-top: 4%;
+  color: #909090;
+  width: 50%;
+  line-height: 115%;
+}
+.hero .bottoms {
+  display: flex;
+  gap: 5%;
+  margin-top: 5%;
+  align-items: center;
+  position: relative;
+}
+.hero .bottoms .book {
+  display: inline-block;
+  margin-right: 1%;
+  padding: 12px 30px;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Poppins", serif;
+  text-decoration: none;
+  border-radius: 25px;
+  background-color: #264065;
+}
+.hero .bottoms .book:hover {
+  background-color: #b2d4cb;
+  color: black;
+}
+.hero .bottoms .video {
+  font-size: 15px;
+  text-decoration: none;
+  font-family: "Poppins", serif;
+}
+.hero .bottoms .video:visited {
+  color: #264065;
+}
+.hero .bottoms .video img {
+  width: 90px;
+  position: absolute;
+  left: 145px;
+  top: -10px;
+}
+
+html {
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgb(249, 248, 244) 68%, #b2d4cb 57% 100%);
+}/*# sourceMappingURL=app.css.map */

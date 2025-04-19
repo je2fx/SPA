@@ -1,0 +1,62 @@
+@use 'variables' as *;
+
+// Hero  Hero-content
+.hero{
+    padding-top: 2%;
+    padding-left: 5%;
+
+    .hero-content{
+     
+        margin-top: 5%;
+        width: 38%;
+        color: $primary-color;
+        font-size: 20px;
+        font-family: $poppins;
+    }
+    p{
+        font-family: $poppins;
+        margin-top: 4%;
+        color:$terciary-color;
+        width: 50%;
+        line-height: 115%;
+    }
+    .bottoms{
+        display: flex;
+        gap: 5%;
+        margin-top: 5%;
+        align-items: center;
+        position: relative;
+        
+        .book{
+            display:inline-block;
+            margin-right: 1%;
+            padding:12px 30px;
+            color: white;
+            font-size: 15px;
+            font-weight: 400;
+            font-family: $poppins;
+            text-decoration: none;
+            border-radius: 25px;
+            background-color: $primary-color;
+            &:hover{
+                background-color:$secondary-color;
+                color: black;
+            }
+        }
+        .video{
+            font-size: 15px;
+            text-decoration: none;
+            font-family: $poppins;
+            &:visited{
+                color: $primary-color;
+            }
+            
+            img{
+                width: 90px;
+                position: absolute;
+                left: 145px;
+                top: -10px;    
+            }
+        }
+    }
+}

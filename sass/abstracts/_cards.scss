@@ -1,0 +1,60 @@
+// Cards Sophie & Jules
+@use 'variables' as *;
+
+.cards{
+    position: relative;
+    font-family: $poppins;
+    .comillas{
+        width: 7%;
+    }
+    .text-cards{
+        p{
+            margin-top: 7px;
+        }
+    }
+
+    .sophie{
+        -webkit-box-shadow: inset 16px 0px 104px 22px rgba(255,255,255,1);
+        -moz-box-shadow: inset 16px 0px 104px 22px rgba(255,255,255,1);
+        box-shadow: inset 16px 0px 104px 22px rgba(255,255,255,1);
+        border-radius: 12px;
+        font-size: 13px;
+        background-color: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(16px);
+        padding: 14px;
+        width: 261px;
+        height: 140px;
+        position: absolute;
+        right: 3.1%;
+        transform: translateY(-274px);
+    }
+    .jules{
+        border-radius: 12px;
+        background-color: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(16px);
+        font-size: 13px;
+        padding: 14px;
+        width: 261px;
+        height: 140px;
+        position: absolute;
+        right: 10%;
+        transform: translateY(-60px);
+    }
+   
+    .name{
+        margin-top: -10px;
+        color: $primary-color;
+    }
+    
+   
+    .cards-content{
+        border-radius: 12px;
+        background-color: rgba(255, 255, 255, 0.4);
+        backdrop-filter: blur(1px);
+        padding: 12px;
+        width: 26%;
+        .text-cards{
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,96 @@
+@use 'variables' as *;
+
+
+.header{
+    max-width: 100%;
+    font-family: $poppins;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    
+    .logo{
+        position: relative;
+        right:41px;
+    }
+    
+    .nav{
+        #more{
+            font-family: $nunito;
+        }
+        .arrow{
+            position:relative;
+            top: -11%;
+            right: 13%;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 7%;
+            
+            a{
+                font-family: $poppins;
+                font-size: 15px;
+                padding: 4px 10px;
+                display: inline-block;
+                text-decoration: none;
+                color:$primary-color;
+                cursor: pointer;
+                &:hover{
+                    border-radius: 29px;
+                    background-color:$primary-color;
+                    color: white;
+                    transition: all .5 ease;
+                }
+            }
+        }
+    }
+    
+  .sign{
+    display: flex;
+    justify-content: center;
+    margin-left: 16%;
+    .sig-list{
+        gap: 2%;
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        .chart{
+            padding-top: 25%;
+            margin-left: -1%;
+            width:80px;
+        }
+        .in{
+            font-size: 15px;
+            font-family: $nunito;
+            width: 122%;
+            margin-left: 8%;
+            color:$primary-color;
+            display: inline-block;
+            padding: 20px 29px;
+            border-radius: 29px;
+            &:hover{
+                border-radius: 29px;
+                background-color:$secondary-color;
+                color: white;
+               transition: all .5 ease;
+            }
+        }
+        .up{
+            font-size: 15px;
+            width: 54%;
+            margin-left: 10%;
+            color: white;
+            display: inline-block;
+            padding: 17px 30px;
+            text-decoration: none;
+            border-radius: 29px;
+            background-color:$primary-color;
+            transition: width 1.1 ease;
+            &:hover{
+                transform:scale(1.3);
+            }
+        }
+    }
+  }  
+}

@@ -1,0 +1,13 @@
+@use 'variables' as *;
+
+
+html{
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right,
+    $pastel-color 68%,
+    $secondary-color 57% 100%,);   
+}

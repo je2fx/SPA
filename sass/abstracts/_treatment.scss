@@ -1,0 +1,51 @@
+@use 'variables' as *;
+// Section  Treatment
+.treatment{
+    font-size: 13px;
+    margin-top: 8%;
+    width: 552px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    .treatment-content{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 5%;
+        
+        
+        
+        .punctuation{
+            font-family: $poppins;
+            font-weight: 400;
+            color: $primary-color;
+            margin-top: 15.5%;
+            margin-bottom:5% ;
+            display: block;
+            text-align: center;
+        }
+        p{
+            color: $terciary-color;
+            font-size: 15px;
+            width: 110px;
+            display: inline-block;
+            text-align:center;
+        }
+        .cream{
+            color: $terciary-color;
+            margin-top: -15px;
+            width: 118px;
+        }
+        
+
+      
+   
+    }
+  
+}

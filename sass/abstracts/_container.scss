@@ -1,0 +1,18 @@
+// Container Header- nav 
+.container{
+    max-width: 1440px;
+    height: 705px;
+    padding-left: 3%;
+    margin-right: auto;
+    margin-left: auto;
+
+    .rose{
+        width: 34%;
+        height: 41%;
+        position: absolute;
+        right: 5%;
+        top: 15%;
+        opacity: 0.1;
+    }
+   
+}
